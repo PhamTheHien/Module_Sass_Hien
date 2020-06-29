@@ -1,0 +1,44 @@
+$f-12:12px;
+$f-14:14px;
+$f-18:18px;
+$bg_color:#23a455;
+$bg1_color:#7a7a7a;
+%re-content {
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+}
+.type-1749{
+    a{
+        text-decoration: none !important;
+    }
+    .online{
+        font-size: 30px;
+        background-color: $bg_color;
+        color:white;
+        i{
+            font-size: $f-14;
+        }
+    }
+    .fas{
+        i{
+            color: $bg_color;
+            font-size: 40px;
+        }
+    }
+.fas{
+    .phone{
+        font-size: 30px;
+    }
+}
+    .we{
+        h4{
+            color:$bg_color;
+        }
+    }
+  .content{
+      @extend %re-content;
+  }
+    
+}
